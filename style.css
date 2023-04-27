@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(Images/bgimage.jpg);
+    background-size: cover;
+}
+nav{
+    padding: 25px;
+    margin: 10px;
+}
+label{
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+
+nav ul{
+    float: right;
+    text-transform: uppercase;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    transition: transform .5s;
+}
+nav ul li a{
+    color: white;
+    font-style: oblique;
+}
